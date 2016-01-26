@@ -1,10 +1,10 @@
-import {ProseMirror, defineOption, Keymap} from "prosemirror/dist/edit"
-import {Block, Inline, Attribute, Schema, defaultSchema} from "prosemirror/dist/model"
-import {elt} from "prosemirror/dist/dom"
-import {InputRule} from "prosemirror/dist/inputrules"
-import {Tooltip} from "prosemirror/dist/ui/tooltip"
-import "prosemirror/dist/menu/menubar"
-import "prosemirror/dist/inputrules/autoinput"
+import {ProseMirror, defineOption, Keymap} from "prosemirror/src/edit"
+import {Block, Inline, Attribute, Schema, defaultSchema} from "prosemirror/src/model"
+import {elt} from "prosemirror/src/dom"
+import {InputRule} from "prosemirror/src/inputrules"
+import {Tooltip} from "prosemirror/src/ui/tooltip"
+import "prosemirror/src/menu/menubar"
+import "prosemirror/src/inputrules/autoinput"
 
 // Create a new node type. For this example we'll use fruit.
 class Fruit extends Inline {
