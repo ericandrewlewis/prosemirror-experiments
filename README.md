@@ -18,10 +18,10 @@ npm install
 cd ../../
 ```
 
-Build experiments
+Build experiments and recompile source on changes
 
 ```
-make
+make dev
 ```
 
 Open `dist/index.html` in your browser.
